@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.destination{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+}
+img{
+    width: 700px;
+    height: 500px;    
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    font-size: large;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    /* padding: 20px;  */
+    background-image: url('img/12.jpg');
+    color: bisque;
+}
+input[type="text"]{
+    padding: 5px;
+}
+ input[type="password"]{
+    padding: 5px;
+}
+.contain{
+    text-align: center;
+    align-items: center;
+}

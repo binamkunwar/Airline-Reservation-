@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*******************Navigation Start*************************/
+
+.main{
+display: flex;
+justify-content: space-between;
+margin:50px,50px;
+padding: 10px;
+background-color: black;
+color: white;
+border:1px solid gold black;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+a{
+text-decoration: none;
+margin: 10px;
+color:white;
+}
+.second{
+    display: flex;
+    background: #333;
+   justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-color: rgb(128, 90, 83);
+    padding: 10px;
+}
+.home  a{
+    
+    padding: 10px;
+}
+
+a:hover{
+    background-color: gray;
+    padding: 0.5em;
+}
+
+
+/*******************Navigation close*************************/
+    
+
+/*******************Home Start*************************/
+.body img{
+    background: url('c.jpg') no-repeat 
+    center center/cover;
+    height: 700px;
+}
+.body{
+    background-color: rgb(226, 221, 214);
+    margin: 1em;
+}
+.opt{
+    display: flex;
+}
+
+
+
+
+#showcase{
+    background: url('img/c.jpg') no-repeat 
+    center center/cover;
+    height: 700px;
+  }
+
+  #showcase .showcase-content{
+      color:black;
+      text-align: center;
+      padding-top: 170px;
+  }
+
+  #showcase .showcase-content h1{
+      font-size: 60px;
+      line-height: 1.2em;
+    }
+
+    .text-primary{
+        color: #f7c08a;
+    }
+
+    .lead{
+        font-size: 50px;
+        font-weight: bold;
+        color: chartreuse;
+    }
+    #showcase .showcase-content p{
+        line-height: 1.7em;
+        padding-bottom: 20px;
+
+    }
+  .btn{
+      display: inline-block;
+      font-size: 18px;
+      color: #fff;
+      background-color: #333;
+      padding: 13px 20px;;
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover{
+        background-color: #f7c08a;
+        color: #333;
+    }
+    /*************** HOME SECTION START*************/
+     .btn-light{
+         background: #f4f4f4;
+         color: #333;
+     }
+     #home-info{
+         height: 400px;
+     }
+     #home-info .info-img{
+          float:left;
+         width: 50%; 
+         background:url('img/7n.jpg') no-repeat;
+         min-height: 100%;
+        }
+        #home-info .info-content{
+            float: right;
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            padding: 60px 30px;
+        }
+        .bg-dark{
+            background: #333;
+            color: #fff;
+        }
+        /***********Home section end ************/
+
+         /***********Feature section start************/
+        .box{
+            width: 33.3%;
+            float: left;
+            padding: 50px;
+            text-align: center;
+        }
+        .box i{
+            margin-bottom: 10px;
+        }
+        .bg-light{
+            background: #f4f4f4;
+            color: #333;
+        }
+        .bg-primary{
+            background: #f7c08a;
+            color: #333;
+        }
+         /***********Feature Section Close************/
+         
+         /***********Footer Section Start************/
+         #main-footer{
+             background: #444;
+             color: #fff;
+            text-align: center;
+            padding: 20px;
+            }
+            .clr{
+                clear: both;
+            }

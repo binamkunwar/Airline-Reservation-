@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{  
+    display:flex ;
+    
+    text-align: center;
+    justify-content: space-between;
+}
+ 
+
+p{
+    margin: 10px;
+}
+/* a{
+    text-decoration: none;
+/* background-color: rgb(29, 95, 95); */
+
+
+
+img{
+    width: 400px; 
+}
+
